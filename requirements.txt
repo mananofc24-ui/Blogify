@@ -1,0 +1,11 @@
+streamlit
+langchain
+langgraph
+langchain-community
+langchain-tavily
+langchain-ollama
+google-genai
+pydantic
+python-dotenv
+pandas
+sqlite-utils

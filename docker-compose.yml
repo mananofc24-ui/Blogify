@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+
+  blog-agent:
+
+    build: .
+
+    container_name: blog-writing-agent
+
+    ports:
+      - "8501:8501"
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./generated_blogs:/app/generated_blogs
+      - ./images:/app/images
